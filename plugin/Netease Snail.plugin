@@ -9,4 +9,4 @@
 hostname=p.du.163.com
 [Script]
 
-http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/deezertidal/private/main/wnds.js
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/rules/Netease%20Snail.js
