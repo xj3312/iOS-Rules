@@ -1,2 +1,2 @@
 # iOS-Rules
-just fun
+just fun（纯抄他人的）
