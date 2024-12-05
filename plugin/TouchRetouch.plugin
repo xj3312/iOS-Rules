@@ -1,0 +1,11 @@
+#!name=TouchRetouch
+#!desc=TouchRetouch解锁
+#!icon=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/icons/NeteaseSnail.png
+#!homepage=https://yfamily.ml
+#!author=yxiaocai & JO2EY
+
+[MITM]
+hostname=p.du.163.com
+[Script]
+
+http-response ^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/rules/TouchRetouch.js
