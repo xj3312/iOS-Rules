@@ -1,0 +1,8 @@
+#!name=有道云笔记
+#!desc=有道云笔记VIP
+#!icon=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/icons/YouDaoNote.png
+#!homepage=https://yfamily.ml
+#!author=Alex0510
+
+[Script]
+有道云笔记=type=http-response,pattern=https://note.youdao.com/yws/(mapi/payment|api/self) requires-body=1 ,script-path=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/rules/YouDaoNote.js
