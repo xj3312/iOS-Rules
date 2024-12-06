@@ -1,0 +1,15 @@
+#!name=网易蜗牛读书
+
+#!desc=网易蜗牛读书解锁
+
+#!homepage=https://whatshub.top
+
+#!icon=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/icons/NeteaseSnail.png
+
+[Script]
+
+网易蜗牛读书=type=http-response,pattern=^https?:\/\/p\.du\.163\.com\/gain\/readtime\/info\.json requires-body=1 ,script-path=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/rules/NeteaseSnail.js
+
+[MITM]
+
+hostname = p.du.163.com
