@@ -6,4 +6,4 @@
 [Script]
 西窗烛=type=http-response,pattern=https://lchttpapi.xczim.com/* requires-body=1,script-path=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/rules/XiChuangZhu.js
 [MITM]
-hostname=lchttpapi.xczim.com
+hostname = %APPEND% lchttpapi.xczim.com
