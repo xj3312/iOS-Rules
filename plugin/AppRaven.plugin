@@ -3,7 +3,7 @@
 #!icon=https://raw.githubusercontent.com/xj3312/iOS-Rules/refs/heads/main/icons/AppRaven.png
 
 [MITM]
-hostname=appraven.net
+hostname=v2.appraven.net
 
 [Script]
 http-response ^https?:\/\/.*appraven\.net\/appraven\/graphql requires-body=1,script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
