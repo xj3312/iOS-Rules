@@ -6,4 +6,4 @@
 hostname=.*appraven.net
 
 [Script]
-http-response ^https?:\/\/.*appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
+http-response ^https?:\/\/.*appraven\.net\/appraven\/graphql requires-body=1,script-path=https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
